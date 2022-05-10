@@ -729,11 +729,11 @@ body.day {
 		transition: all 1s ease 0s;
 		z-index: 3;
 		overflow: auto;
-		box-shadow: #000 5px 2px 50px;
 	}
 
 	.content__side-bar.click {
 		left: 0%;
+		box-shadow: #000 5px 2px 50px;
 	}
 
 	.content__column {
