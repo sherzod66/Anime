@@ -766,7 +766,7 @@ body.day {
 
 	@media (max-width: 400px) {
 		.content__side-bar {
-			width: 100%;
+			width: 90%;
 		}
 	}
 
