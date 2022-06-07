@@ -351,9 +351,9 @@ body.day {
 	background-color: rgb(48, 212, 253);
 }
 
-.series__button:last-child {
+/*.series__button:last-child {
 	margin: 15px 0px 0px 0px;
-}
+}*/
 
 .series__button p {
 	color: #444;
