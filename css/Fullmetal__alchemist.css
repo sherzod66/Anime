@@ -292,6 +292,7 @@ body.day {
 
 .header__ani {
 	position: relative;
+	z-index: 5;
 	width: 100%;
 	height: 400px;
 	background: url('../img/stalnoy/alximik.jpg') center/cover no-repeat;
