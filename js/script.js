@@ -34,21 +34,20 @@ function content(event) {
 	siteBarBody.classList.remove('click');
 }
 
+const input = document.querySelector('#elastic');
 
-document.querySelector('#elastic').oninput = function () {
-	let val = this.value.trim();
+input.oninput = function () {
+	let val = input.value.toLowerCase();
 	const elasticItems = document.querySelectorAll('.content__column, .name');
 	if (val != '') {
 		elasticItems.forEach(function (elem) {
-			if (elem.innerText.search(val) == -1) {
+			if (elem.innerText.toLowerCase().search(val) === -1) {
 				elem.classList.add('hide');
-			}
-			else {
+			} else {
 				elem.classList.remove('hide');
 			}
 		});
-	}
-	else {
+	} else {
 		elasticItems.forEach(function (elem) {
 			elem.classList.remove('hide');
 		});
