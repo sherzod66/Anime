@@ -242,10 +242,6 @@ body.day {
 	padding: 10px 0px;
 	height: 80px;
 	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 5;
 	transition: all 1s ease 0s;
 	/*background-color: rgba(210, 242, 250, 0.61);*/
 
@@ -253,6 +249,11 @@ body.day {
 
 .header.color {
 	background-color: rgba(210, 242, 250, 0.61);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	
 }
 
 .header.color:before {
