@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Регистрация</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/reg.css">
+</head>
+
+<body>
+	<!---Оболочка--->
+	<div class="wrapper">
+		<div class="die"></div>
+		<div class="full-screen">
+			<video autoplay muted loop preload="auto" class="full-screen__video">
+				<source type="video/mp4" src="video/reg2.mp4">
+			</video>
+
+			<!---<div class="sound">
+				<span><i class="fa-solid fa-volume-xmark"></i></span>
+				<span><i class="fa-solid fa-volume-high"></i></span>
+			</div>--->
+		</div>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__row">
+					<div class="login">Войти</div>
+					<div class="registration">Зарегистрироваться</div>
+				</div>
+			</div>
+		</header>
+		<nav class="nav">
+			<div class="nav__container">
+				<form name="reg" class="form" action="#" method="post">
+					<div class="email">
+						<p>Электронная почта</p>
+						<input placeholder="пример@gmail.com" tabindex="2" type="email">
+					</div>
+					<div class="password">
+						<p>Пароль</p>
+						<input tabindex="3" name="userpass" type="password">
+					</div>
+					<div class="profile-photo">
+						<p>Прикррепить фото</p>
+						<input name="fphoto" tabindex="6" type="file">
+					</div>
+					<div class="action">
+						<button type="submit">Регстрация</button>
+					</div>
+				</form>
+				<form class="form-login" action="#" method="post">
+					<div class="email">
+						<p>Электронная почта</p>
+						<input placeholder="пример@gmail.com" tabindex="2" type="email">
+					</div>
+					<div class="password">
+						<p>Пароль</p>
+						<input tabindex="3" name="userpass" type="password">
+						<div class="action">
+							<button type="submit">Войти</button>
+						</div>
+				</form>
+			</div>
+		</nav>
+	</div>
+	<!---Подключаем файл JS скриптов --->
+	<script src="js/reg.js"></script>
+	<script src="js/fetch-post.js"></script>
+</body>
+
+</html>
